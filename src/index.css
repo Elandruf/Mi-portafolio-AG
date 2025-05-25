@@ -1,0 +1,47 @@
+.home-container {
+    background-image: url('https://img.freepik.com/vector-premium/fondo-corporativo-geometrico-alta-tecnologia-gris-abstracto_249611-5900.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    padding: 60px 0;
+}
+
+.text-center h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+}
+
+.text-center p {
+    font-size: 1.5rem;
+
+}
+
+.navbar {
+    height: auto;
+}
+
+.about-container {
+    background-image: url('https://img.freepik.com/vector-premium/fondo-corporativo-geometrico-alta-tecnologia-gris-abstracto_249611-5900.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    padding: 60px 0;
+}
+
+.projects-home-container {
+    background-image: url('https://img.freepik.com/vector-premium/fondo-corporativo-geometrico-alta-tecnologia-gris-abstracto_249611-5900.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    padding: 60px 0;
+}
+
+.container-contact {
+    background-image: url('https://img.freepik.com/vector-premium/fondo-corporativo-geometrico-alta-tecnologia-gris-abstracto_249611-5900.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    padding: 60px 0;
+}

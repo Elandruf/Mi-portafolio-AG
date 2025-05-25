@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "color": "black"
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "color": "black"
+    },
+    {
+        "id": 3,
+        "name": "JavaScript",
+        "color": "black"
+    },
+    {
+        "id": 4,
+        "name": "React",
+        "color": "black"
+    },
+    {
+        "id": 5,
+        "name": "Git",
+        "color": "black"
+    },
+    {
+        "id": 6,
+        "name": "Bootstrap",
+        "color": "black"
+    },
+    {
+        "id": 7,
+        "name": "TypeScript",
+        "color": "black"
+    },
+    {
+        "id": 8,
+        "name": "Angular",
+        "color": "black"
+    },
+    {
+        "id": 9,
+        "name":"Python",
+        "color":"black"
+    },
+    {
+        "id":10,
+        "name":"JWT",
+        "color":"black"
+    },
+    {
+        "id":11,
+        "name":"MySQL",
+        "color":"black"
+    }
+]

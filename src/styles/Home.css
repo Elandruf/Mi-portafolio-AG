@@ -1,0 +1,7 @@
+.home-container {
+    background-image: url('https://t4.ftcdn.net/jpg/10/65/71/67/360_F_1065716759_OXmDNodmxYA88wjDRBELI3tUBQeHLW2p.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 60px 0;
+}
