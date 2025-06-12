@@ -17,7 +17,7 @@ export default function Projects() {
                         <div
                             className="card h-100 text-center shadow"
                             data-aos="fade-up"
-                            style={{ minHeight: "200px" }}
+                            style={{ minHeight: "50px", maxWidth:"1000px", margin:"2rem auto" }}
                         >
                             <div className="card-header bg-dark text-white">{project.name}</div>
                             <div className="card-body">

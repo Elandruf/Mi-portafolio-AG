@@ -45,3 +45,8 @@
     min-height: 80vh;
     padding: 60px 0;
 }
+.nav-item{
+    cursor:pointer
+}
+
+
