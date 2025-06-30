@@ -1,69 +1,85 @@
-import React from "react";
-import emailjs from "emailjs-com";
+import { t } from "i18next";
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+
 
 const Contact = () => {
-    const sendEmail = (e) => {
-        e.prevendDefault();
+  const [ t, i18n ] = useTranslation();
+  const [formData, setFormData] = useState({
+    nombre: "",
+    email: "",
+    mensaje: "",
+  });
 
-        emailjs.sendForm(
-            'service_mtm7hwq',
-            'template_dzm0wa2',
-            e.target,
-            'Q119G8mfzOOtHtjJf'
-        ).then(
-            (result) => {
-                alert("Mensaje enviado con exito!");
-            },
-            (error) => {
-                alert("Error enviando el mensaje")
-            }
-        )
-        e.target.reset()
+  const handleChange = (e) => {
+    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch(process.env.BACKEND_URL + "contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        alert("Mensaje enviado con éxito!");
+        setFormData({ nombre: "", email: "", mensaje: "" });
+      } else {
+        alert("Error enviando el mensaje: " + data.message);
+      }
+    } catch (error) {
+      alert("Error de red: " + error.message);
     }
+  };
 
-    return (
-        <div className="container-contact">
-            <h2 className="text-center mb-4">Contáctame</h2>
-            <form onSubmit={sendEmail} className="mx-auto" style={{ maxWidth: "600px" }}>
-                <p className="mb-3">¿Tienes un proyecto o quieres trabajar conmigo? ¡Házmelo saber!</p>
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng)
+  }
+  return (
+    <div className="container-contact">
+      <h2 className="text-center mb-4">{t("contact")}</h2>
+      <form onSubmit={sendEmail} className="mx-auto" style={{ maxWidth: "600px" }}>
+        <p className="mb-3">{t("message")}</p>
 
-                <input
-                    type="text"
-                    name="user_name"
-                    placeholder="Tu nombre"
-                    className="form-control mb-3"
-                    required
-                />
-                <input
-                    type="email"
-                    name="user_email"
-                    placeholder="Tu correo"
-                    className="form-control mb-3"
-                    required
-                />
-                <textarea
-                    name="message"
-                    placeholder="Tu mensaje"
-                    className="form-control mb-3"
-                    rows="5"
-                    required
-                ></textarea>
-                <button type="submit" className="btn btn-dark w-100">Enviar</button>
-
-                <div className="text-center mt-3">
-                    <p>O si prefieres:</p>
-                    <a
-                        href="https://wa.me/521XXXXXXXXXX?text=Hola%20Elandruf,%20vi%20tu%20portafolio%20y%20me%20interesa%20contactarte"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-success"
-                    >
-                        <i className="fa-brands fa-whatsapp me-2"></i>Escríbeme por WhatsApp
-                    </a>
-                </div>
-            </form>
-        </div>
-    );
-}
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Tu nombre"
+          className="form-control mb-3"
+          value={formData.nombre}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Tu correo"
+          className="form-control mb-3"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+        <textarea
+          name="mensaje"
+          placeholder="Tu mensaje"
+          className="form-control mb-3"
+          rows="5"
+          value={formData.mensaje}
+          onChange={handleChange}
+          required
+        ></textarea>
+        <button type="submit" className="btn btn-dark w-100">{t("send")}</button>
+      </form>
+    </div>
+  );
+};
 
 export default Contact;

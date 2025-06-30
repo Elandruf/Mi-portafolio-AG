@@ -21,13 +21,6 @@
         "url": "https://github.com/Elandruf/FS-PT-81-StarWarsAndresGarcia"
     },
     {
-        "id": 5,
-        "name": "Portafolio personal",
-        "color": "black",
-        "description": "Mi portafolio personal es una página web desarrollada con el objetivo de presentar mis habilidades como programador, así como los proyectos en los que he trabajado. Funciona como una carta de presentación digital, permitiéndome compartir mi experiencia, estilo de trabajo y enfoque de desarrollo, con el propósito de conectar con posibles colaboradores, empleadores o personas interesadas en mi perfil profesional.",
-        "url": ""
-    },
-    {
         "id": 6,
         "name": "Contact-List",
         "color": "black",

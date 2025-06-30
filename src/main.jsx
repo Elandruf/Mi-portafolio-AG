@@ -6,6 +6,7 @@ import './index.css';
 import { StoreProvider } from './hooks/useGlobalReducer';  // (si lo necesitas)
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import './i18n';
 
 // Renderiza usando RouterProvider
 ReactDOM.createRoot(document.getElementById("root")).render(

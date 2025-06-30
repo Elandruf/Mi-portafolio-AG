@@ -1,0 +1,38 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "about":"Sobre mi",
+        "contact":"Contactame"
+    },
+    "projects":{
+        "my_projects":"Mis Proyectos",
+        "project1":{
+            "project1_name":"Agenpro",
+            "project1_description":"Agenpro es una aplicación diseñada para gestionar la reserva de citas para una amplia variedad de servicios. Su objetivo es optimizar el proceso de agendamiento tanto para empresas como para clientes, permitiendo una planificación más eficiente. Al automatizar las reservas, Agenpro ayuda a reducir tiempos de espera, minimizar errores y mejorar la experiencia del usuario, generando un ahorro significativo de tiempo y recursos para todos los involucrados."
+        },
+        "project2": {
+            "project2_name":"Star Wars API",
+            "project2_description":"Este proyecto consiste en una API desarrollada en Python, respaldada por una base de datos relacional estructurada con precisión. La arquitectura incluye tablas vinculadas mediante relaciones bien definidas, lo que permite una gestión eficiente de los datos y una comunicación fluida entre los distintos elementos del sistema. Su diseño facilita tanto la escalabilidad como la integración con otras aplicaciones o servicios."
+        },
+        "project3": {
+            "project3_name":"Star Wars Blog",
+            "project3_description":"Este blog es la extensión visual del proyecto API Star Wars, diseñado para presentar de forma dinámica y atractiva la información obtenida desde la API. Desarrollado en el frontend, el blog transforma los datos en una experiencia interactiva para el usuario, permitiendo explorar personajes, planetas y otros elementos del universo Star Wars de manera intuitiva y visualmente envolvente."
+        },
+        "project4":{
+            "project4_name":"Contact List",
+            "project4_description":"Contact List es una solución práctica y dinámica para gestionar tu lista de contactos. Con una interfaz intuitiva e interactiva, podrás añadir, editar y eliminar contactos de forma rápida y sencilla, optimizando tu experiencia de usuario y manteniendo tu agenda siempre actualizada."
+        }
+    },
+    "more": "Explorar",
+    "about_me":"Soy un desarrollador web con una fuerte orientación a resultados, especializado en crear soluciones digitales eficientes, escalables y visualmente atractivas. Mi enfoque combina una sólida base técnica con una comprensión profunda de la experiencia del usuario, lo que me permite construir productos que no solo funcionan, sino que conectan con las personas. A lo largo de mi trayectoria, he trabajado con tecnologías modernas del ecosistema frontend y backend, adaptándome rápidamente a nuevos entornos y desafíos. Me apasiona escribir código limpio, optimizado y mantenible, siempre alineado con las mejores prácticas del desarrollo actual. Más allá del código, valoro el trabajo en equipo, la comunicación efectiva y el aprendizaje continuo como pilares fundamentales en cada proyecto. Mi objetivo es aportar valor real a través de la tecnología, impulsando experiencias digitales que generen impacto.",
+    "techs":"Habilidades",
+    "contact":"Contactame",
+    "message":"¿Tienes un proyecto o quieres trabajar conmigo?",
+    "sobremi":"Sobre mi",
+    "social":"Redes",
+    "aboutme":"Soy desarrollador web enfocado en crear soluciones eficientes, escalables y atractivas. Combino técnica y experiencia de usuario para construir productos que conectan y aportan valor real.",
+    "title":"Hey, mi nombre es Andres",
+    "welcome_message":"Bienvenido a mi portafolio personal",
+    "send":"Enviar"
+}

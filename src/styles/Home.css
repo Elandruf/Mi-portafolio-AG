@@ -1,7 +1,30 @@
+body{
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148882948.jpg');
+}
 .home-container {
-    background-image: url('https://t4.ftcdn.net/jpg/10/65/71/67/360_F_1065716759_OXmDNodmxYA88wjDRBELI3tUBQeHLW2p.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    padding: 60px 0;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+.translate-buttons-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.translate-button {
+  color: black;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.translate-button:hover {
+  color: #4b5563;
 }

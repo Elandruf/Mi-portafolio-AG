@@ -1,0 +1,44 @@
+{
+    "navbar": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About me",
+        "contact": "Contact me"
+    },
+    "projects": {
+        "my_projects": "My Projects",
+        "projects_data": {
+            "1": {
+                "name": "Agenpro",
+                "description": "Agenpro is an application designed to manage appointment booking for a wide variety of services. Its goal is to optimize the scheduling process for both companies and clients, enabling more efficient planning. By automating bookings, Agenpro helps reduce wait times, minimize errors, and improve the user experience, generating significant savings in time and resources for everyone involved."
+            },
+            "3": {
+                "name": "Star Wars API",
+                "description": "This project consists of an API developed in Python, supported by a precisely structured relational database. The architecture includes tables linked by well-defined relationships, allowing for efficient data management and fluid communication between the different elements of the system. Its design facilitates both scalability and integration with other applications or services."
+            },
+            "4": {
+                "name": "Star Wars Blog",
+                "description": "This blog is the visual extension of the Star Wars API project, designed to dynamically and engagingly present information obtained from the API. Developed on the front end, the blog transforms data into an interactive user experience, allowing the user to explore characters, planets, and other elements of the Star Wars universe in an intuitive and visually immersive way."
+            },
+            "5": {
+                "name": "Personal Portfolio",
+                "description": "My personal portfolio is a website developed to showcase my skills as a programmer..."
+            },
+            "6": {
+                "name": "Contact List",
+                "description": "Contact List is a practical and dynamic solution for managing your contact list. With an intuitive and interactive interface, you can add, edit, and delete contacts quickly and easily, optimizing your user experience and keeping your address book up-to-date."
+            }
+        }
+    },
+    "more":"Explore",
+    "about_me":"I am  a results-oriented web developer, specialized in creating efficient, scalable, and visually compelling digital solutions. My approach combines a solid technical foundation with a deep understanding of user experience, allowing me to build products that not only work, but also connect with people. Throughout my career, I've worked with modern technologies in the front- and back-end ecosystem, quickly adapting to new environments and challenges. I'm passionate about writing clean, optimized, and maintainable code, always aligned with current development best practices. Beyond code, I value teamwork, effective communication, and continuous learning as fundamental pillars of every project. My goal is to add real value through technology, driving impactful digital experiences.",
+    "techs":"Skills",
+    "contact":"Contact me",
+    "message":"Have a project or want to work with me?",
+    "sobremi": "About me",
+    "social":"Social",
+    "welcome_message":"Welcome to my Showcase",
+    "title":"Hey, im Andres",
+    "send":"Send"
+
+}

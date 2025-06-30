@@ -1,8 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import '../styles/Home.css'
+
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <nav className="navbar navbar-expand-md bg-white shadow-sm py-3">
@@ -14,8 +22,6 @@ const Navbar = () => {
         >
           Andres Eduardo Garcia
         </span>
-
-        {/* Botón hamburguesa */}
         <button
           className="navbar-toggler"
           type="button"
@@ -24,29 +30,52 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        {/* Contenido colapsable */}
         <div className="collapse navbar-collapse" id="navbarContent">
           <ul className="navbar-nav ms-auto gap-md-3 text-center text-md-start">
             <li className="nav-item">
-              <a className="nav-link boton-negro-navbar" onClick={() => navigate("/")}>
-                Inicio
-              </a>
+              <strong>
+                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/")}>
+                  {t("navbar.home")}
+                </a>
+              </strong>
             </li>
             <li className="nav-item">
-              <a className="nav-link boton-negro-navbar" onClick={() => navigate("/projects")}>
-                Proyectos
-              </a>
+              <strong>
+                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/projects")}>
+                  {t("navbar.projects")}
+                </a>
+              </strong>
             </li>
             <li className="nav-item">
-              <a className="nav-link boton-negro-navbar" onClick={() => navigate("/about")}>
-                Sobre Mi
-              </a>
+              <strong>
+                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/about")}>
+                  {t("navbar.about")}
+                </a>
+              </strong>
             </li>
             <li className="nav-item">
-              <a className="nav-link boton-negro-navbar" onClick={() => navigate("/contact")}>
-                Contacto
-              </a>
+              <strong>
+                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/contact")}>
+                  {t("navbar.contact")}
+                </a>
+              </strong>
+            </li>
+            <li>
+
+              <div className="translate-buttons-container">
+                <button
+                  className="translate-button"
+                  onClick={() => changeLanguage('es')}
+                >
+                  ES
+                </button>
+                <button
+                  className="translate-button"
+                  onClick={() => changeLanguage('en')}
+                >
+                  EN
+                </button>
+              </div>
             </li>
           </ul>
         </div>
