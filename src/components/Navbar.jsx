@@ -53,15 +53,7 @@ const Navbar = () => {
                 </a>
               </strong>
             </li>
-            <li className="nav-item">
-              <strong>
-                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/contact")}>
-                  {t("navbar.contact")}
-                </a>
-              </strong>
-            </li>
             <li>
-
               <div className="translate-buttons-container">
                 <button
                   className="translate-button"

@@ -31,14 +31,16 @@
         }
     },
     "more":"Explore",
-    "about_me":"I am  a results-oriented web developer, specialized in creating efficient, scalable, and visually compelling digital solutions. My approach combines a solid technical foundation with a deep understanding of user experience, allowing me to build products that not only work, but also connect with people. Throughout my career, I've worked with modern technologies in the front- and back-end ecosystem, quickly adapting to new environments and challenges. I'm passionate about writing clean, optimized, and maintainable code, always aligned with current development best practices. Beyond code, I value teamwork, effective communication, and continuous learning as fundamental pillars of every project. My goal is to add real value through technology, driving impactful digital experiences.",
+    "about_me":"I'm a web developer focused on creating efficient, scalable, and visually appealing digital solutions. I combine technical skills with a strong user experience mindset to build functional products that truly connect with people. I adapt quickly to new environments, work well in teams, and am always eager to keep learning. My goal is to deliver real value through technology.",
     "techs":"Skills",
     "contact":"Contact me",
     "message":"Have a project or want to work with me?",
-    "sobremi": "About me",
+    "info_number": "(+34) 632-29-13-87",
+    "info_email":"andreseduardo2710@gmail.com",
     "social":"Social",
     "welcome_message":"Welcome to my Showcase",
     "title":"Hey, im Andres",
-    "send":"Send"
+    "send":"Send",
+    "sobremi":"Contact"
 
 }

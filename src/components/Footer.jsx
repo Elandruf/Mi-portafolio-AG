@@ -6,7 +6,7 @@ import i18next from "i18next";
 
 const Footer = () => {
 
-	const [ t,i18n ] = useTranslation();
+	const [t, i18n] = useTranslation();
 
 	const changeLanguage = (lng) => {
 		i18n.changeLanguage(lng);
@@ -18,7 +18,9 @@ const Footer = () => {
 				<div className="row justify-content-between">
 					<div className="col-md-4 mb-4">
 						<h5 className="fw-bold">{t("sobremi")}</h5>
-						<p className="text-muted">{t("aboutme")}</p>
+						<strong><p className="">+34 632-291-387</p></strong>
+						<strong><p className="">andreseduardo2710@gmail.com</p></strong>
+					
 					</div>
 					<div className="col-md-4 mb-4">
 						<h5 className="fw-bold">{t("social")}</h5>
