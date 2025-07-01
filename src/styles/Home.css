@@ -1,5 +1,6 @@
 body{
   background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148882948.jpg');
+  font-family: 'Inter', sans-serif;
 }
 .home-container {
   background-size: cover;
@@ -27,4 +28,16 @@ body{
 
 .translate-button:hover {
   color: #4b5563;
+}
+.project-button {
+  background-color: #000;
+  color: #fff;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }

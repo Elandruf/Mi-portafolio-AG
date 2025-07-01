@@ -13,10 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-md bg-white shadow-sm py-3">
+    <nav className="navbar navbar-expand-md bg-black shadow-sm py-3">
       <div className="container">
         <span
-          className="navbar-brand fw-bold text-dark text-uppercase"
+          className="navbar-brand fw-bold text-light text-uppercase"
           onClick={() => navigate("/")}
           style={{ cursor: "pointer" }}
         >
@@ -34,21 +34,21 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto gap-md-3 text-center text-md-start">
             <li className="nav-item">
               <strong>
-                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/")}>
+                <a className="nav-link boton-negro-navbar" style={{color:"white"}} onClick={() => navigate("/")}>
                   {t("navbar.home")}
                 </a>
               </strong>
             </li>
             <li className="nav-item">
               <strong>
-                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/projects")}>
+                <a className="nav-link boton-negro-navbar" style={{color:"white"}} onClick={() => navigate("/projects")}>
                   {t("navbar.projects")}
                 </a>
               </strong>
             </li>
             <li className="nav-item">
               <strong>
-                <a className="nav-link boton-negro-navbar" style={{color:"black"}} onClick={() => navigate("/about")}>
+                <a className="nav-link boton-negro-navbar" style={{color:"white"}} onClick={() => navigate("/about")}>
                   {t("navbar.about")}
                 </a>
               </strong>
@@ -58,12 +58,14 @@ const Navbar = () => {
                 <button
                   className="translate-button"
                   onClick={() => changeLanguage('es')}
+                  style={{color:"white"}}
                 >
                   ES
                 </button>
                 <button
                   className="translate-button"
                   onClick={() => changeLanguage('en')}
+                  style={{color:"white"}}
                 >
                   EN
                 </button>

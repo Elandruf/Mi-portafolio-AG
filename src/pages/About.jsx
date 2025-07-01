@@ -30,7 +30,7 @@ const About = () => {
 
 
                 <strong>
-                    <p className="text-muted" style={{ color: "black" }}>
+                    <p className="" style={{ color: "black" }}>
                         {t("about_me")}
                     </p>
                 </strong>
