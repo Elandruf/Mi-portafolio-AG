@@ -11,7 +11,7 @@ const  Projects= () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1000, once:true });
   }, []);
 
   return (

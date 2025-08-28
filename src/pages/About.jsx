@@ -26,7 +26,7 @@ const About = () => {
                     ))}
                 </div>
 
-                <hr />
+                <hr className="height: 5px background-color: black border: none;"/>
 
 
                 <strong>

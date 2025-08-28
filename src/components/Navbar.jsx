@@ -53,6 +53,13 @@ const Navbar = () => {
                 </a>
               </strong>
             </li>
+            <li className="nav-item">
+              <strong>
+                <a className="nav-link boton-negro-navbar" style={{color:"white"}} onClick={()=> navigate("/experience")}>
+                  {t("navbar.experience")}
+                </a>
+              </strong>
+            </li>
             <li>
               <div className="translate-buttons-container">
                 <button

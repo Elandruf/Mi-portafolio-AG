@@ -2,37 +2,73 @@
     "navbar": {
         "home": "Inicio",
         "projects": "Proyectos",
-        "about":"Sobre mi",
-        "contact":"Contactame"
+        "about": "Sobre mí",
+        "contact": "Contáctame",
+        "experience": "Experiencia"
     },
-    "projects":{
-        "my_projects":"Mis Proyectos",
-        "project1":{
-            "project1_name":"Agenpro",
-            "project1_description":"Agenpro es una aplicación diseñada para gestionar la reserva de citas para una amplia variedad de servicios. Su objetivo es optimizar el proceso de agendamiento tanto para empresas como para clientes, permitiendo una planificación más eficiente. Al automatizar las reservas, Agenpro ayuda a reducir tiempos de espera, minimizar errores y mejorar la experiencia del usuario, generando un ahorro significativo de tiempo y recursos para todos los involucrados."
-        },
-        "project2": {
-            "project2_name":"Star Wars API",
-            "project2_description":"Este proyecto consiste en una API desarrollada en Python, respaldada por una base de datos relacional estructurada con precisión. La arquitectura incluye tablas vinculadas mediante relaciones bien definidas, lo que permite una gestión eficiente de los datos y una comunicación fluida entre los distintos elementos del sistema. Su diseño facilita tanto la escalabilidad como la integración con otras aplicaciones o servicios."
-        },
-        "project3": {
-            "project3_name":"Star Wars Blog",
-            "project3_description":"Este blog es la extensión visual del proyecto API Star Wars, diseñado para presentar de forma dinámica y atractiva la información obtenida desde la API. Desarrollado en el frontend, el blog transforma los datos en una experiencia interactiva para el usuario, permitiendo explorar personajes, planetas y otros elementos del universo Star Wars de manera intuitiva y visualmente envolvente."
-        },
-        "project4":{
-            "project4_name":"Contact List",
-            "project4_description":"Contact List es una solución práctica y dinámica para gestionar tu lista de contactos. Con una interfaz intuitiva e interactiva, podrás añadir, editar y eliminar contactos de forma rápida y sencilla, optimizando tu experiencia de usuario y manteniendo tu agenda siempre actualizada."
+    "projects": {
+        "my_projects": "Mis Proyectos",
+        "projects_data": {
+            "1": {
+                "name": "Agenpro",
+                "description": "Diseñé y desarrollé AGENPRO, una aplicación full stack para la gestión de reservas. Implementé una base de datos relacional en SQLAlchemy con Python, creando rutas y endpoints seguros con autenticación JWT y probados con Postman. En el frontend, construí interfaces de usuario dinámicas y responsivas con React, aplicando componentes reutilizables y hooks, además de integrar módulos de login, registro y recuperación de contraseña. El sistema permite llamadas a APIs externas para notificaciones y se planificó visualmente en Figma, garantizando una experiencia intuitiva, segura y escalable para los usuarios."
+            },
+            "2": {
+                "name": "Star Wars API",
+                "description": "Desarrollé una API en Python utilizando SQLAlchemy para gestionar una base de datos relacional. La arquitectura incluye tablas vinculadas mediante relaciones bien definidas, lo que permite una gestión eficiente y escalable de los datos. Implementé endpoints que facilitan la comunicación fluida entre los distintos elementos del sistema, habilitando la integración con aplicaciones externas. Este proyecto pone en práctica conceptos de backend sólido, organización de datos y escalabilidad."
+            },
+            "3": {
+                "name": "Star Wars Blog",
+                "description": "El Star Wars Blog es la extensión visual de la API, diseñado en frontend con React para mostrar de forma dinámica la información obtenida desde la API. Creé una interfaz interactiva, intuitiva y responsive, que permite al usuario explorar personajes, planetas y otros elementos del universo Star Wars de manera envolvente. Se implementaron componentes reutilizables y llamadas asíncronas a la API, logrando una experiencia atractiva y fluida. Este proyecto refleja mi capacidad de transformar datos en experiencias de usuario memorables."
+            },
+            
+            "4": {
+                "name": "Contact List",
+                "description": "Contact List es una aplicación web desarrollada con React, que realiza llamadas a una API para gestionar contactos de manera ordenada. La interfaz es intuitiva y responsive, permitiendo agregar, editar y eliminar contactos con facilidad. Implementé lógica para mantener la lista siempre actualizada, priorizando la usabilidad y la eficiencia. Este proyecto demuestra mis habilidades en la gestión de estados, consumo de APIs y diseño de interfaces orientadas al usuario."
+            }
         }
     },
     "more": "Explorar",
-    "about_me":"Soy desarrollador web enfocado en crear soluciones digitales eficientes, escalables y atractivas. Combino habilidades técnicas con una fuerte orientación a la experiencia del usuario para construir productos funcionales que conectan con las personas. Me adapto rápido a nuevos entornos, trabajo bien en equipo y siempre busco seguir aprendiendo. Mi objetivo es aportar valor real a través de la tecnología.",
-    "techs":"Habilidades",
-    "contact":"Contactame",
-    "message":"¿Tienes un proyecto o quieres trabajar conmigo?",
-    "sobremi":"Contacto",
-    "social":"Redes",
-    "aboutme":"Soy desarrollador web enfocado en crear soluciones eficientes, escalables y atractivas. Combino técnica y experiencia de usuario para construir productos que conectan y aportan valor real.",
-    "title":"Hey, mi nombre es Andres",
-    "welcome_message":"Bienvenido a mi portafolio personal",
-    "send":"Enviar"
+    "about_me": "Apasionado por la tecnologıa y el aprendizaje continuo, siempre en busca de nuevos conocimientos que impulsen mi crecimiento profesional y personal. Me interesa explorar nuevos lenguajes y expandir habilidades en entornos dinamicos. Tengo experiencia solida en desarrollo backend con Python y Flask, creando APIs RESTful seguras con autenticacion JWT. En frontend, he trabajado con React y Angular en JavaScript y TypeScript, desarrollando interfaces dinamicas y reutilizables, e implementando operaciones CRUD integradas con APIs y bases de datos. Manejo SQL y SQLAlchemy para disenar estructuras de datos escalables y eficientes. Me desenvuelvo en Linux, automatizo tareas con Bash y gestiono codigo con Git, aplicando buenas practicas, priorizando calidad y seguridad.",
+    "techs": "Habilidades",
+    "contact": "Contáctame",
+    "message": "¿Tienes un proyecto o quieres trabajar conmigo?",
+    "sobremi": "Contacto",
+    "social": "Redes",
+    "title": "Hey, mi nombre es Andrés",
+    "welcome_message": "Bienvenido a mi portafolio personal",
+    "send": "Enviar",
+    "experiences": {
+        "my_experiences": "Experiencia",
+        "experience_data": {
+            "1": {
+                "title": "Desarrollador Web Frontend",
+                "company": "Omkrom",
+                "period": "May 2025 – Jul 2025",
+                "location": "Madrid, España",
+                "description": "Prácticas como Desarrollador Web Frontend Junior, donde colaboré en la creación de la página web de la empresa desde cero junto con el equipo. Utilizamos Angular para construir componentes reutilizables e interfaces de usuario, incluyendo login, registro y recuperación de contraseña. Además, realicé integraciones con una API en Swift. También adquirí experiencia con Docker, Linux (Tubuntu) y WSL, fortaleciendo mis competencias en entornos multiplataforma."
+            },
+            "2": {
+                "title": "Desarrollador Web Full Stack",
+                "company": "MyCityHome",
+                "period": "Mar 2025 – May 2025",
+                "location": "Madrid, España",
+                "description": "Prácticas como Desarrollador Web Junior, donde participé en el diseño y mantenimiento de la aplicación ERP de la empresa. Trabajé con TypeScript y React, creando componentes reutilizables y gestionando llamadas a la API en tiempo real. Administré datos de pisos e inquilinos, desarrollando habilidades de resolución de problemas y adaptabilidad. También colaboré en un bot virtual que se comunicaba con inquilinos mediante mensajes periódicos."
+            },
+            "3": {
+                "title": "Encargado de tienda",
+                "company": "Roots Lamarca",
+                "period": "Oct 2023 – Oct 2024",
+                "location": "Madrid, España",
+                "description": "Encargado de tienda con responsabilidades en ventas, atención al cliente y cobro en caja. Realicé apertura y cierre del local, además de apoyar en cocina y limpieza, asegurando el correcto funcionamiento diario del establecimiento."
+            },
+            "4": {
+                "title": "Encargado de tienda",
+                "company": "Del Poble",
+                "period": "May 2023 – Jul 2023",
+                "location": "Madrid, España",
+                "description": "Encargado de tienda con experiencia en gestión de albaranes, atención al cliente y cobro en caja. Responsable de la apertura y cierre, además de tareas en cocina y soporte operativo, contribuyendo al orden y eficiencia del negocio."
+            }
+        }
+    }
 }

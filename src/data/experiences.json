@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "role": "Desarrollador Web Frontend",
+    "company": "Omkrom",
+    "period": "May 2025 – Jul 2025",
+    "location": "Madrid, España",
+    "description": "Prácticas como Desarrollador Web Frontend Junior, donde colaboré en la creación de la página web de la empresa desde cero junto con el equipo. Utilizamos Angular para construir componentes reutilizables e interfaces de usuario, incluyendo login, registro y recuperación de contraseña. Además, realicé integraciones con una API en Swift. También adquirí experiencia con Docker, Linux (Tubuntu) y WSL, fortaleciendo mis competencias en entornos multiplataforma."
+  },
+  {
+    "id": "2",
+    "role": "Desarrollador Web Full Stack",
+    "company": "MyCityHome",
+    "period": "Mar 2025 – May 2025",
+    "location": "Madrid, España",
+    "description": "Prácticas como Desarrollador Web Junior, donde participé en el diseño y mantenimiento de la aplicación ERP de la empresa. Trabajé con TypeScript y React, creando componentes reutilizables y gestionando llamadas a la API en tiempo real. Administré datos de pisos e inquilinos, desarrollando habilidades de resolución de problemas y adaptabilidad. También colaboré en un bot virtual que se comunicaba con inquilinos mediante mensajes periódicos."
+  },
+  {
+    "id": "3",
+    "role": "Encargado de tienda",
+    "company": "Roots Lamarca",
+    "period": "Oct 2023 – Oct 2024",
+    "location": "Madrid, España",
+    "description": "Encargado de tienda con responsabilidades en ventas, atención al cliente y cobro en caja. Realicé apertura y cierre del local, además de apoyar en cocina y limpieza, asegurando el correcto funcionamiento diario del establecimiento."
+  },
+  {
+    "id": "4",
+    "role": "Encargado de tienda",
+    "company": "Del Poble",
+    "period": "May 2023 – Jul 2023",
+    "location": "Madrid, España",
+    "description": "Encargado de tienda con experiencia en gestión de albaranes, atención al cliente y cobro en caja. Responsable de la apertura y cierre, además de tareas en cocina y soporte operativo, contribuyendo al orden y eficiencia del negocio."
+  }
+]

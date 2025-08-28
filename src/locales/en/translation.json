@@ -3,44 +3,74 @@
         "home": "Home",
         "projects": "Projects",
         "about": "About me",
-        "contact": "Contact me"
+        "contact": "Contact me",
+        "experience": "Experience"
     },
     "projects": {
         "my_projects": "My Projects",
         "projects_data": {
             "1": {
                 "name": "Agenpro",
-                "description": "Agenpro is an application designed to manage appointment booking for a wide variety of services. Its goal is to optimize the scheduling process for both companies and clients, enabling more efficient planning. By automating bookings, Agenpro helps reduce wait times, minimize errors, and improve the user experience, generating significant savings in time and resources for everyone involved."
+                "description": "I developed AGENPRO, a full-stack application for appointment management. I built a relational database using SQL and SQLAlchemy with Python, designing secure RESTful endpoints with JWT authentication. On the frontend, I implemented responsive and dynamic user interfaces with React, including reusable components and modules for login, registration, and password recovery. The system also integrates API calls for notifications and was visually designed in Figma, ensuring an intuitive, secure, and scalable user experience."
+            },
+            "2": {
+                "name": "Star Wars API",
+                "description": "I built a Python API using SQLAlchemy to manage a precisely structured relational database. The architecture features tables linked through well-defined relationships, enabling efficient and scalable data management. I implemented RESTful endpoints that provide smooth communication between system elements and support integration with external applications. This project showcases solid backend design, data organization, and scalability."
             },
             "3": {
-                "name": "Star Wars API",
-                "description": "This project consists of an API developed in Python, supported by a precisely structured relational database. The architecture includes tables linked by well-defined relationships, allowing for efficient data management and fluid communication between the different elements of the system. Its design facilitates both scalability and integration with other applications or services."
-            },
-            "4": {
                 "name": "Star Wars Blog",
-                "description": "This blog is the visual extension of the Star Wars API project, designed to dynamically and engagingly present information obtained from the API. Developed on the front end, the blog transforms data into an interactive user experience, allowing the user to explore characters, planets, and other elements of the Star Wars universe in an intuitive and visually immersive way."
+                "description": "The Star Wars Blog is the visual extension of the API, developed on the frontend with React to dynamically display data retrieved from the API. I designed a responsive, interactive, and intuitive interface that allows users to explore characters, planets, and other elements of the Star Wars universe in an immersive way. It leverages reusable components and asynchronous API calls, turning data into an engaging user experience."
             },
-            "5": {
-                "name": "Personal Portfolio",
-                "description": "My personal portfolio is a website developed to showcase my skills as a programmer..."
-            },
-            "6": {
+            
+            "4": {
                 "name": "Contact List",
-                "description": "Contact List is a practical and dynamic solution for managing your contact list. With an intuitive and interactive interface, you can add, edit, and delete contacts quickly and easily, optimizing your user experience and keeping your address book up-to-date."
+                "description": "Contact List is a web application built with React that performs API calls to manage contacts in an organized way. The interface is intuitive and responsive, allowing users to add, edit, and remove contacts easily. I implemented logic to keep the list updated in real time, focusing on usability and efficiency. This project highlights my skills in state management, API consumption, and user-centered interface design."
             }
         }
     },
-    "more":"Explore",
-    "about_me":"I'm a web developer focused on creating efficient, scalable, and visually appealing digital solutions. I combine technical skills with a strong user experience mindset to build functional products that truly connect with people. I adapt quickly to new environments, work well in teams, and am always eager to keep learning. My goal is to deliver real value through technology.",
-    "techs":"Skills",
-    "contact":"Contact me",
-    "message":"Have a project or want to work with me?",
+    "more": "Explore",
+    "about_me": "Passionate about technology and continuous learning, always looking for new knowledge that boosts my professional and personal growth. I am interested in exploring new languages ​​and expanding my skills in dynamic environments. I have solid experience in backend development with Python and Flask, creating secure RESTful APIs with JWT authentication. In frontend, I have worked with React and Angular in JavaScript and TypeScript, developing dynamic and reusable interfaces, and implementing integrated CRUD operations with APIs and databases. I handle SQL and SQLAlchemy to design scalable and efficient data structures. I work with Linux, automate tasks with Bash, and manage code with Git, applying best practices and prioritizing quality and security.",
+    "techs": "Skills",
+    "contact": "Contact me",
+    "message": "Have a project or want to work with me?",
     "info_number": "(+34) 632-29-13-87",
-    "info_email":"andreseduardo2710@gmail.com",
-    "social":"Social",
-    "welcome_message":"Welcome to my Showcase",
-    "title":"Hey, im Andres",
-    "send":"Send",
-    "sobremi":"Contact"
-
+    "info_email": "andreseduardo2710@gmail.com",
+    "social": "Social",
+    "welcome_message": "Welcome to my Showcase",
+    "title": "Hey, I'm Andres",
+    "send": "Send",
+    "sobremi": "Contact",
+    "experiences": {
+        "my_experiences": "Experience",
+        "experience_data": {
+            "1": {
+                "title": "Frontend Web Developer",
+                "company": "Omkrom",
+                "period": "May 2025 – Jul 2025",
+                "location": "Madrid, Spain",
+                "description": "Internship as a Junior Frontend Web Developer, where I collaborated with the team to create the company's website from scratch. We used Angular to build reusable components and design user interfaces, including login, registration, and password recovery modules. I also implemented integrations using the Swift API. During this period, I also gained experience adapting work environments using Docker, Linux (Tubuntu), and WSL, which strengthened my technical skills in multiplatform development environments."
+            },
+            "2": {
+                "title": "Full Stack Web Developer",
+                "company": "MyCityHome",
+                "period": "Mar 2025 – May 2025",
+                "location": "Madrid, Spain",
+                "description": "Junior Web Developer internship, where I participated in the design and maintenance of the company's ERP application, ensuring it met operational requirements. I worked with TypeScript and React, implementing reusable components and managing API calls to render information in real time. I was in charge of managing data related to apartments and tenants, which allowed me to develop problem-solving and adaptability skills. Additionally, I collaborated in the implementation of a virtual bot in charge of communicating with tenants, sending periodic messages based on the length of their stay."
+            },
+            "3": {
+                "title": "Store Manager",
+                "company": "Roots Lamarca",
+                "period": "Oct 2023 – Oct 2024",
+                "location": "Madrid, Spain",
+                "description": "Store manager, responsible for sales, customer service, and cashiering. I performed opening and closing duties, as well as assisted with kitchen and cleaning duties, ensuring the smooth daily operation of the establishment."
+            },
+            "4": {
+                "title": "Store Manager",
+                "company": "Del Poble",
+                "period": "May 2023 – Jul 2023",
+                "location": "Madrid, Spain",
+                "description": "Store manager with experience in delivery note management, customer service, and cashiering. I was responsible for opening and closing the store, as well as kitchen duties and operational support, contributing to the business's order and efficiency."
+            }
+        }
+    }
 }

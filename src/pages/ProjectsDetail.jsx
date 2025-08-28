@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"; 
+import { useParams } from "react-router-dom";
 import projects from "../data/projects.json";
+import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
 const ProjectDetail = () => {
   const { id } = useParams();
   const [project, setProject] = useState(null);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const foundProject = projects.find((p) => p.id.toString() === id);
@@ -16,53 +19,28 @@ const ProjectDetail = () => {
   }
 
   return (
-    <div 
-      className="container mt-5" 
-      style={{ minHeight: "calc(100vh - 150px)" }} // Ajusta 150px según navbar+footer
-    >
-      <div className="row align-items-center">
-        
-        {/* Imagen */}
-        <div className="col-md-6">
-          <img 
-            src={project.image} 
-            alt={project.name} 
-            className="img-fluid rounded shadow"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
+    <div className="container mt-5"style={{ minHeight: "calc(100vh - 150px)" }}>
+      <div className="card shadow h-100 text-center" style={{ maxWidth: "1000px", margin: "10rem"}}>
+        <div className="card-header bg-dark text-white">
+          {t(`projects.projects_data.${project.id}.name`, { defaultValue: project.name })}
         </div>
-
-        {/* Información */}
-        <div 
-          className="col-md-6 d-flex flex-column justify-content-between" 
-          style={{ minHeight: "100%" }}
-        >
-          <div>
-            <h1 className="mb-3 text-center">{project.name}</h1>
-            <p className="text-muted">{project.description}</p>
-          </div>
-
-          {/* Tecnologías */}
-          {project.technologies && project.technologies.length > 0 && (
-            <div className="mt-4">
-              <h5>Tecnologías usadas:</h5>
-              <ul>
+        <div className="card-body">
+          <p className="text-muted mb-4" style={{ fontSize: "0.9rem", color: "black" }}>
+            {t(`projects.projects_data.${project.id}.description`, { defaultValue: project.description })}
+          </p>
+          {project.technologies?.length > 0 && (
+            <div className="mb-4">
+              <h5>{t("projects.technologies_used")}</h5>
+              <ul className="list-unstyled">
                 {project.technologies.map((tech, index) => (
                   <li key={index}>{tech}</li>
                 ))}
               </ul>
             </div>
           )}
-
-          {/* Botón */}
           {project.url && (
-            <a 
-              href={project.url} 
-              target="_blank" 
-              rel="noreferrer" 
-              className="btn btn-dark mt-4"
-            >
-              Ver proyecto
+            <a href={project.url} target="_blank" rel="noreferrer" className="btn btn-dark text-white rounded-pill">
+              {t("more")}
             </a>
           )}
         </div>
