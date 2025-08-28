@@ -61,7 +61,7 @@ const Navbar = () => {
               </strong>
             </li>
             <li>
-              <div className="translate-buttons-container">
+              <div className="translate-buttons-container justify-content-center">
                 <button
                   className="translate-button"
                   onClick={() => changeLanguage('es')}
