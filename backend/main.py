@@ -12,7 +12,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://shiny-enigma-97q6744wxjw4fp9v5-8000.app.github.dev/"],  # Cambiado para React local
+    allow_origins=["https://shiny-enigma-97q6744wxjw4fp9v5-8000.app.github.dev/"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

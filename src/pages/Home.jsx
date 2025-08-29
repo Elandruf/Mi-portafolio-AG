@@ -15,7 +15,7 @@ const Home = () => {
 			<div className="text-center">
 				<h1 className="display-4 fw-bold">{t("title")} </h1>
 				<p className="lead mt-3">{t("welcome_message")}</p>
-				<button className="project-button"onClick={()=>navigate("/projects")}>{t("navbar.projects")}</button>
+				{/*<button className="project-button"onClick={()=>navigate("/projects")}>{t("navbar.projects")}</button>*/}
 			</div>
 		</div>
 	);
