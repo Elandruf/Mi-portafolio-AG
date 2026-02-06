@@ -29,7 +29,7 @@
         }
     },
     "more": "Explorar",
-    "about_me": "Apasionado por la tecnologıa y el aprendizaje continuo, siempre en busca de nuevos conocimientos que impulsen mi crecimiento profesional y personal. Me interesa explorar nuevos lenguajes y expandir habilidades en entornos dinamicos. Tengo experiencia solida en desarrollo backend con Python y Flask, creando APIs RESTful seguras con autenticacion JWT. En frontend, he trabajado con React y Angular en JavaScript y TypeScript, desarrollando interfaces dinamicas y reutilizables, e implementando operaciones CRUD integradas con APIs y bases de datos. Manejo SQL y SQLAlchemy para disenar estructuras de datos escalables y eficientes. Me desenvuelvo en Linux, automatizo tareas con Bash y gestiono codigo con Git, aplicando buenas practicas, priorizando calidad y seguridad.",
+    "about_me": "Desarrollador web con experiencia en frontend y backend, participando activamente en todas las fases del ciclo de vida del software. Esta implicación me ha permitido desarrollar sólidas habilidades de comunicación y trabajo en equipo. Busco seguir ampliando mi experiencia en el ámbito del desarrollo de software y formar parte de una empresa donde pueda crecer profesionalmente y aportar valor desde el primer día.",
     "techs": "Habilidades",
     "contact": "Contáctame",
     "message": "¿Tienes un proyecto o quieres trabajar conmigo?",
@@ -44,28 +44,28 @@
             "1": {
                 "title": "Desarrollador Web Frontend",
                 "company": "Omkrom",
-                "period": "May 2025 – Aug 2025",
+                "period": "05/2025 – 10/2025",
                 "location": "Madrid, España",
-                "description": "Prácticas como Desarrollador Web Frontend Junior, donde colaboré en la creación de la página web de la empresa desde cero junto con el equipo. Utilizamos Angular para construir componentes reutilizables e interfaces de usuario, incluyendo login, registro y recuperación de contraseña. Además, realicé integraciones con una API en Swift. También adquirí experiencia con Docker, Linux (Tubuntu) y WSL, fortaleciendo mis competencias en entornos multiplataforma."
+                "description": "Desarrollo y diseño de interfaces de usuario dinámicas y modulares utilizando Angular y TypeScript, incluyendo pantallas de login, registro y flujos de autenticación. Experiencia en el consumo de APIs REST mediante servicios HTTP, así como en el desarrollo e implementación de módulos de autenticación basados en JWT. Formación en el negocio de la domótica, adquirida a través de la participación en proyectos y el aprendizaje continuo."
             },
             "2": {
                 "title": "Desarrollador Web Full Stack",
                 "company": "MyCityHome",
-                "period": "Mar 2025 – May 2025",
+                "period": "02/2025 – 05/2025",
                 "location": "Madrid, España",
-                "description": "Prácticas como Desarrollador Web Junior, donde participé en el diseño y mantenimiento de la aplicación ERP de la empresa. Trabajé con TypeScript y React, creando componentes reutilizables y gestionando llamadas a la API en tiempo real. Administré datos de pisos e inquilinos, desarrollando habilidades de resolución de problemas y adaptabilidad. También colaboré en un bot virtual que se comunicaba con inquilinos mediante mensajes periódicos."
+                "description": "Mantenimiento y optimización de un sistema ERP desarrollado con React y TypeScript, con especial foco en el uso de componentes reutilizables y la mejora del rendimiento. Experiencia en el consumo de APIs para la gestión de datos y en el control e interacción con bases de datos. Desarrollo de funcionalidades modulares integrables en otros sistemas. Creación de un bot en Python para tareas de comunicación y automatización."
             },
             "3": {
                 "title": "Encargado de tienda",
                 "company": "Roots Lamarca",
-                "period": "Oct 2023 – Oct 2024",
+                "period": "10/2023 – 10/2024",
                 "location": "Madrid, España",
                 "description": "Encargado de tienda con responsabilidades en ventas, atención al cliente y cobro en caja. Realicé apertura y cierre del local, además de apoyar en cocina y limpieza, asegurando el correcto funcionamiento diario del establecimiento."
             },
             "4": {
                 "title": "Encargado de tienda",
                 "company": "Del Poble",
-                "period": "May 2023 – Jul 2023",
+                "period": "05/2023 – 08/2023",
                 "location": "Madrid, España",
                 "description": "Encargado de tienda con experiencia en gestión de albaranes, atención al cliente y cobro en caja. Responsable de la apertura y cierre, además de tareas en cocina y soporte operativo, contribuyendo al orden y eficiencia del negocio."
             }

@@ -3,7 +3,7 @@
     "id": "1",
     "role": "Desarrollador Web Frontend",
     "company": "Omkrom",
-    "period": "May 2025 – Jul 2025",
+    "period": "May 2025 – Oct 2025",
     "location": "Madrid, España",
     "description": "Prácticas como Desarrollador Web Frontend Junior, donde colaboré en la creación de la página web de la empresa desde cero junto con el equipo. Utilizamos Angular para construir componentes reutilizables e interfaces de usuario, incluyendo login, registro y recuperación de contraseña. Además, realicé integraciones con una API en Swift. También adquirí experiencia con Docker, Linux (Tubuntu) y WSL, fortaleciendo mis competencias en entornos multiplataforma."
   },
@@ -11,7 +11,7 @@
     "id": "2",
     "role": "Desarrollador Web Full Stack",
     "company": "MyCityHome",
-    "period": "Mar 2025 – May 2025",
+    "period": "Feb 2025 – May 2025",
     "location": "Madrid, España",
     "description": "Prácticas como Desarrollador Web Junior, donde participé en el diseño y mantenimiento de la aplicación ERP de la empresa. Trabajé con TypeScript y React, creando componentes reutilizables y gestionando llamadas a la API en tiempo real. Administré datos de pisos e inquilinos, desarrollando habilidades de resolución de problemas y adaptabilidad. También colaboré en un bot virtual que se comunicaba con inquilinos mediante mensajes periódicos."
   },

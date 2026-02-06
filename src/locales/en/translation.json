@@ -29,7 +29,7 @@
         }
     },
     "more": "Explore",
-    "about_me": "Passionate about technology and continuous learning, always looking for new knowledge that boosts my professional and personal growth. I am interested in exploring new languages ​​and expanding my skills in dynamic environments. I have solid experience in backend development with Python and Flask, creating secure RESTful APIs with JWT authentication. In frontend, I have worked with React and Angular in JavaScript and TypeScript, developing dynamic and reusable interfaces, and implementing integrated CRUD operations with APIs and databases. I handle SQL and SQLAlchemy to design scalable and efficient data structures. I work with Linux, automate tasks with Bash, and manage code with Git, applying best practices and prioritizing quality and security.",
+    "about_me": "Web developer with experience in both frontend and backend development, actively involved in all phases of the software development lifecycle. This experience has allowed me to develop strong communication and teamwork skills. I am looking to continue expanding my expertise in software development and to join a company where I can grow professionally while adding value from day one.",
     "techs": "Skills",
     "contact": "Contact me",
     "message": "Have a project or want to work with me?",
@@ -46,16 +46,16 @@
             "1": {
                 "title": "Frontend Web Developer",
                 "company": "Omkrom",
-                "period": "May 2025 – Aug 2025",
+                "period": "05/2025 – 10/2025",
                 "location": "Madrid, Spain",
-                "description": "Internship as a Junior Frontend Web Developer, where I collaborated with the team to create the company's website from scratch. We used Angular to build reusable components and design user interfaces, including login, registration, and password recovery modules. I also implemented integrations using the Swift API. During this period, I also gained experience adapting work environments using Docker, Linux (Tubuntu), and WSL, which strengthened my technical skills in multiplatform development environments."
+                "description": "Development and design of dynamic and modular user interfaces using Angular and TypeScript, including login, registration, and authentication flows. Experience consuming REST APIs through HTTP services, as well as developing and implementing JWT-based authentication modules. Background in the home automation (domotics) business, gained through hands-on project work and continuous learning."
             },
             "2": {
                 "title": "Full Stack Web Developer",
                 "company": "MyCityHome",
-                "period": "Mar 2025 – May 2025",
+                "period": "02/2025 – 05/2025",
                 "location": "Madrid, Spain",
-                "description": "Junior Web Developer internship, where I participated in the design and maintenance of the company's ERP application, ensuring it met operational requirements. I worked with TypeScript and React, implementing reusable components and managing API calls to render information in real time. I was in charge of managing data related to apartments and tenants, which allowed me to develop problem-solving and adaptability skills. Additionally, I collaborated in the implementation of a virtual bot in charge of communicating with tenants, sending periodic messages based on the length of their stay."
+                "description": "Maintenance and optimization of an ERP system developed with React and TypeScript, with a strong focus on reusable components and performance improvements. Experience consuming APIs for data management and interacting with databases. Development of modular features designed to be integrated into other systems. Creation of a Python-based bot for communication and automation tasks."
             },
             "3": {
                 "title": "Store Manager",
