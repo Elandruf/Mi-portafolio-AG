@@ -13,7 +13,7 @@ const Footer = () => {
 	}
 	return (
 
-		<footer className="bg-white border-top pt-5 pb-4 mt-1">
+		<footer className=" border-top pt-5 pb-4 mt-1">
 			<div className="container">
 				<div className="row justify-content-between">
 					<div className="col-md-4 mb-4">

@@ -32,7 +32,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-md bg-white shadow-sm py-3">
+    <nav className="navbar navbar-expand-md bg-gray shadow-sm py-3">
       <div className="container">
         <span
           className="navbar-brand fw-bold text-shadow text-uppercase"
