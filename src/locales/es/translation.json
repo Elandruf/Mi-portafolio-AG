@@ -56,18 +56,11 @@
                 "description": "Mantenimiento y optimización de un sistema ERP desarrollado con React y TypeScript, con especial foco en el uso de componentes reutilizables y la mejora del rendimiento. Experiencia en el consumo de APIs para la gestión de datos y en el control e interacción con bases de datos. Desarrollo de funcionalidades modulares integrables en otros sistemas. Creación de un bot en Python para tareas de comunicación y automatización."
             },
             "3": {
-                "title": "Encargado de tienda",
-                "company": "Roots Lamarca",
-                "period": "10/2023 – 10/2024",
-                "location": "Madrid, España",
-                "description": "Encargado de tienda con responsabilidades en ventas, atención al cliente y cobro en caja. Realicé apertura y cierre del local, además de apoyar en cocina y limpieza, asegurando el correcto funcionamiento diario del establecimiento."
-            },
-            "4": {
-                "title": "Encargado de tienda",
-                "company": "Del Poble",
-                "period": "05/2023 – 08/2023",
-                "location": "Madrid, España",
-                "description": "Encargado de tienda con experiencia en gestión de albaranes, atención al cliente y cobro en caja. Responsable de la apertura y cierre, además de tareas en cocina y soporte operativo, contribuyendo al orden y eficiencia del negocio."
+                "title": "Desarrollador Web Frontend",
+                "company": "CANTV(Compañía Anónima Nacional Teléfonos de Venezuela)",
+                "period": "02/2018 – 03/2019",
+                "location": "Caracas, Venezuela",
+                "description": "Desarrollo de una aplicación web interna para la empresa, encargándome de la maquetación y el diseño con HTML y CSS bajo principios de diseño responsivo, así como de la programación frontend con JavaScript para aportar interactividad y funcionalidad. Manejo y consumo de datos mediante JSON, uso de jQuery para la manipulación del DOM y mejora de la experiencia de usuario, además de soporte en testing, validación de funcionalidades e integración básica con bases de datos."
             }
         }
     }

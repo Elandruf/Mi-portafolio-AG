@@ -58,18 +58,11 @@
                 "description": "Maintenance and optimization of an ERP system developed with React and TypeScript, with a strong focus on reusable components and performance improvements. Experience consuming APIs for data management and interacting with databases. Development of modular features designed to be integrated into other systems. Creation of a Python-based bot for communication and automation tasks."
             },
             "3": {
-                "title": "Store Manager",
-                "company": "Roots Lamarca",
-                "period": "10/2023 – 10/2024",
+                "title": "Frontend Web Developer",
+                "company": "CANTV(Compañia Anonima de telefonos de Venezuela)",
+                "period": "02/2018 – 03/2019",
                 "location": "Madrid, Spain",
-                "description": "Store manager, responsible for sales, customer service, and cashiering. I performed opening and closing duties, as well as assisted with kitchen and cleaning duties, ensuring the smooth daily operation of the establishment."
-            },
-            "4": {
-                "title": "Store Manager",
-                "company": "Del Poble",
-                "period": "05/2023 – 08/2023",
-                "location": "Madrid, Spain",
-                "description": "Store manager with experience in delivery note management, customer service, and cashiering. I was responsible for opening and closing the store, as well as kitchen duties and operational support, contributing to the business's order and efficiency."
+                "description": "Development of an internal web application for the company, responsible for layout and design using HTML and CSS following responsive design principles, as well as frontend programming with JavaScript to provide interactivity and functionality. Handling and consuming data using JSON, leveraging jQuery for DOM manipulation and user experience improvement, along with support in testing, functionality validation, and basic database integration."
             }
         }
     }
